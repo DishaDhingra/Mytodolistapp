@@ -6,6 +6,11 @@
 */
 {
   "files": [],
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES5"
+  },
   "references": [
     {
       "path": "./tsconfig.app.json"

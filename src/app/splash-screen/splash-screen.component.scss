@@ -1,0 +1,18 @@
+$bgcolor: #f5bc42;
+$textcolor: darkblue;
+$fontsize: 18px;
+$offset: 0px;
+$zindex: 9999;
+
+.splash-screen {
+  position: absolute;
+  top: $offset;
+  right: $offset;
+  bottom: $offset;
+  left: $offset;
+  z-index: $zindex;
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+
